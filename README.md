@@ -35,3 +35,8 @@ To run this predictive engine dashboard locally on your workstation, follow the 
 ```bash
 git clone [https://github.com/MouroshK/World_cup_2026.git](https://github.com/MouroshK/World_cup_2026.git)
 cd World_cup_2026
+
+
+
+## 🔗 Live Application
+👉 **[Click here to view the Live Predictive Dashboard](https://world-cup-2026.streamlit.app)**
