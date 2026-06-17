@@ -4,6 +4,19 @@ An end-to-end data science and predictive machine learning dashboard built to si
 
 This repository spans the entire data pipeline workflow—including historical data alignment, feature engineering, local validation baseline training using cross-validated **LightGBM** models, and deployment via an interactive, high-fidelity **Streamlit** web user interface.
 
+
+
+```markdown
+## 🔗 Live Application
+🚀 **[Click here to open the Live Streamlit Web App]
+
+(https://airflow-gsheets-app-pipelin-cwrzh6sdkghbtth4ym7zwv.streamlit.app/)**
+
+
+```
+
+
+
 ---
 
 ## 🚀 Key Features
