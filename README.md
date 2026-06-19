@@ -53,3 +53,12 @@ cd World_cup_2026
 
 ## 🔗 Live Application
 👉 **[Click here to view the Live Predictive Dashboard](https://world-cup-2026.streamlit.app)**
+
+```
+
+
+ This is how after the group stages it will look like
+
+ 
+<img width="785" height="345" alt="image" src="https://github.com/user-attachments/assets/1b76d83b-3dd0-4fde-9af0-b54275a81475" />
+
