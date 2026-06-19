@@ -1,13 +1,9 @@
-#### Step 2: Paste the Automation Blueprint
-Click into the main text editor box below and paste this exact configuration script:
-
-```yaml
 name: Keep Streamlit Alive
 
 on:
   schedule:
-    - cron: '0 */10 * * *' # Triggers automatically every 10 hours
-  workflow_dispatch:      # Allows you to trigger it manually if wanted
+    - cron: '0 */10 * * *'
+  workflow_dispatch:
 
 jobs:
   ping-repo:
@@ -16,9 +12,9 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Push Empty Commit to Reset Streamlit Timer
+      - name: Push Empty Commit
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git commit --allow-empty -m "Chore: Automated ping to keep Streamlit cloud container active"
+          git commit --allow-empty -m "Chore: Automated ping to keep Streamlit active"
           git push origin main
